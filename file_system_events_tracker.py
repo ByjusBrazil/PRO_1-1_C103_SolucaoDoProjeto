@@ -28,7 +28,7 @@ class FileEventHandler(FileSystemEventHandler):
         
 
 # Inicialize a Classe Gerenciadora de Eventos
-event_handler = FileMovementHandler()
+event_handler = FileEventHandler()
 
 # Inicialize o Observer
 observer = Observer()
